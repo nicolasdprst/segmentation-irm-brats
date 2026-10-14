@@ -1,0 +1,15 @@
+data/
+*.nii
+*.nii.gz
+*.tar
+*.pt
+*.pth
+checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.vscode/
+.idea/
