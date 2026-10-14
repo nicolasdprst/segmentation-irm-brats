@@ -4,6 +4,7 @@
 
 ---
 
+![Résultats de segmentation BraTS](./brats_results.png)
 ## Pourquoi ce projet ?
 
 Après avoir pas mal travaillé sur le fine-tuning de modèles de langage (LLM / SLM avec LoRA et GRPO), j'ai voulu voir comment transposer ces méthodes d'adaptation légère à la vision par ordinateur et plus particulièrement à l'imagerie médicale.
@@ -55,3 +56,9 @@ Si vous souhaitez relancer l'expérience (sur Google Colab ou en local avec un G
 pip install "monai[nibabel,tqdm]" torch torchvision transformers peft matplotlib scikit-learn
 
 python brats_lora_vs_unet.py
+
+## Résultats visuels
+
+Voici un exemple de coupe axiale extraite du jeu de validation comparant l'IRM d'entrée, la vérité terrain du radiologue et la prédiction de notre modèle SegFormer + LoRA :
+
+![Résultats de segmentation BraTS](./brats_results.png)
