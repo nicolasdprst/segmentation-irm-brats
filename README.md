@@ -57,6 +57,7 @@ pip install "monai[nibabel,tqdm]" torch torchvision transformers peft matplotlib
 
 python brats_lora_vs_unet.py
 
+```
 ## Résultats visuels
 
 Voici un exemple de coupe axiale extraite du jeu de validation comparant l'IRM d'entrée, la vérité terrain du radiologue et la prédiction de notre modèle SegFormer + LoRA :
